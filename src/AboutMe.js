@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import myPic from "./me.PNG";
 
 const AboutMe = (props) => {
   return (
@@ -8,7 +7,7 @@ const AboutMe = (props) => {
       <div className="myPic">
         <img
           className="bottomPadding"
-          src={props.image}
+          src={require("./me.PNG")}
           alt="image of me"
         ></img>
       </div>
