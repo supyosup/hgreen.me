@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM, { render } from "react-dom";
 import Nav from "./Nav";
 import Container from "./Container";
-import logo from "./logo2.png";
+import logo from "./hg.png";
 import AboutMe from "./AboutMe";
 import Strava from "./Strava";
 import Footer from "./Footer";
@@ -25,10 +25,8 @@ const App = () => {
         </div>
       </Container>
       <Container className="jumbotron">
-        {/* <Container className="aboutMeMain"> */}
         <AboutMe></AboutMe>
         <Strava></Strava>
-        {/* </Container> */}
       </Container>
       <Container className="center">
         <Footer className="footer"></Footer>
