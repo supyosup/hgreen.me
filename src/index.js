@@ -24,13 +24,13 @@ const App = () => {
           <Nav></Nav>
         </div>
       </Container>
-      <Container className="jumbotron">
+      {/* <Container className="jumbotron">
         <AboutMe></AboutMe>
         <Strava></Strava>
       </Container>
       <Container className="center">
         <Footer className="footer"></Footer>
-      </Container>
+      </Container> */}
     </div>
   );
 };
