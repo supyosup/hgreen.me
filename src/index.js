@@ -6,6 +6,7 @@ import logo from "./hg.png";
 import AboutMe from "./AboutMe";
 import Strava from "./Strava";
 import Footer from "./Footer";
+import myPic from "./me.PNG";
 
 const App = () => {
   return (
@@ -25,7 +26,7 @@ const App = () => {
         </div>
       </Container>
       <Container className="jumbotron">
-        <AboutMe></AboutMe>
+        <AboutMe image={myPic}></AboutMe>
         <Strava></Strava>
       </Container>
       <Container className="center">

@@ -6,7 +6,11 @@ const AboutMe = (props) => {
   return (
     <div className="aboutMeMain">
       <div className="myPic">
-        <img className="bottomPadding" src={myPic} alt="image of me"></img>
+        <img
+          className="bottomPadding"
+          src={props.image}
+          alt="image of me"
+        ></img>
       </div>
       <div className="center">
         <h3>Test</h3>
