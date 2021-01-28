@@ -1,5 +1,5 @@
 import React from "react";
-import linklogo from "./linkedin.png";
+import linklogo from "images/linkedin.png";
 
 const Footer = (props) => {
   return (

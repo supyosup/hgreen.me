@@ -17,7 +17,8 @@
   justify-content: center;
   align-items: center;
 }
-.aboutMeHidden {
+
+.hidden {
   display: none;
 }
 
@@ -28,7 +29,7 @@
   max-width: 70vw;
   height: auto;
   border-radius: 0.5rem;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 .jumbotron {
@@ -75,8 +76,8 @@ h3 {
 }
 
 p {
-  color: green;
-  font-size: 1em;
+  color: #fff;
+  font-size: 0.9em;
 }
 
 /* FOR DESKTOP */
@@ -92,7 +93,7 @@ p {
 /* FOR MOBILE */
 @media screen and (max-width: 800px) {
   p {
-    color: black;
+    color: #fff;
     font-size: 0.9em;
     text-align: center;
   }

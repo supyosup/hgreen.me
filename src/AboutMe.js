@@ -1,20 +1,17 @@
 import React, { Component } from "react";
 import "./App.css";
-import myPic from "./me.png";
+import me from "images/me.png";
 
 const AboutMe = (props) => {
   return (
-    <div className={props.hidden ? "aboutMeMain" : "aboutMeHidden"}>
+    <div className={props.hidden ? "aboutMeMain" : "hidden"}>
       <div className="myPic">
-        <img src={myPic} className="bottomPadding" alt="image of me"></img>
+        <img src={me} className="bottomPadding" alt="image of me"></img>
       </div>
       <div className="center">
         <h3>Test</h3>
       </div>
-      <p>
-        Testing testing testing testing testing testing testing testing testing
-        testing testing testing testing
-      </p>
+      <p>I made this site in hopes to learn React and showcase my skills</p>
     </div>
   );
 };

@@ -1,5 +1,4 @@
 import React from "react";
-import "bootswatch/dist/darkly/bootstrap.min.css";
 
 const Nav = (onClick, onClick2) => {
   return (
@@ -21,7 +20,7 @@ const Nav = (onClick, onClick2) => {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="./resume.txt" download>
+          <a className="nav-link" href="./Resume.pdf" download="hgresume.pdf">
             Resume
           </a>
         </li>

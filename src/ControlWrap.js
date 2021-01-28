@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "./Nav";
 import AboutMe from "./AboutMe";
 import Container from "./Container";
-import logo from "./hg.png";
+import logo from "images/hg.png";
 import Strava from "./Strava";
 
 class ControlWrap extends React.Component {
@@ -24,7 +24,7 @@ class ControlWrap extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="none">
         <Container className="jumbotron2">
           <div className="imageContainer">
             <img src={logo} width="300" height="150"></img>
@@ -35,7 +35,6 @@ class ControlWrap extends React.Component {
         </Container>
         <Container className="jumbotron2">
           <AboutMe hidden={this.state.isVisible}></AboutMe>
-          {/* <Strava></Strava> */}
         </Container>
         <Strava hidden={this.state.hobbiesVisible}></Strava>
       </div>

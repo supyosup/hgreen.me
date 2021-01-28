@@ -20,7 +20,6 @@ class App extends React.Component {
           ></meta>
         </div>
         <ControlWrap></ControlWrap>
-
         <Container className="center">
           <Footer className="footer"></Footer>
         </Container>
