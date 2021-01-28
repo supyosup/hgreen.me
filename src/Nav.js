@@ -1,6 +1,5 @@
 import React from "react";
 import "bootswatch/dist/darkly/bootstrap.min.css";
-import AboutMe from "./AboutMe";
 
 const Nav = (onClick, onClick2) => {
   return (

@@ -1,10 +1,6 @@
 import React from "react";
 import ReactDOM, { render } from "react-dom";
-import Nav from "./Nav";
 import Container from "./Container";
-import logo from "./hg.png";
-import AboutMe from "./AboutMe";
-import Strava from "./Strava";
 import Footer from "./Footer";
 import ControlWrap from "./ControlWrap";
 
@@ -24,14 +20,6 @@ class App extends React.Component {
           ></meta>
         </div>
         <ControlWrap></ControlWrap>
-        {/* <Container className="jumbotron2">
-          <div className="imageContainer">
-            <img src={logo} width="300" height="150"></img>
-          </div>
-          <div className="navBarCenter">
-            <Nav></Nav>
-          </div>
-        </Container> */}
 
         <Container className="center">
           <Footer className="footer"></Footer>

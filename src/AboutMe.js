@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "./App.css";
-import myPic from "./me.PNG";
+import myPic from "./me.png";
 
 const AboutMe = (props) => {
   return (
     <div className={props.hidden ? "aboutMeMain" : "aboutMeHidden"}>
       <div className="myPic">
-        <img className="bottomPadding" src={myPic} alt="image of me"></img>
+        <img src={myPic} className="bottomPadding" alt="image of me"></img>
       </div>
       <div className="center">
         <h3>Test</h3>
