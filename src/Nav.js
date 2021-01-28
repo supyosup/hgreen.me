@@ -1,12 +1,13 @@
 import React from "react";
 import "bootswatch/dist/darkly/bootstrap.min.css";
+import AboutMe from "./AboutMe";
 
-const Nav = () => {
+const Nav = (onClick, onClick2) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark">
       <ul className="navbar-nav mr-auto">
         <li className="nav-item">
-          <a className="nav-link" href="#" onClick={showAbout}>
+          <a className="nav-link" href="#" onClick={onClick}>
             About Me
           </a>
         </li>
@@ -17,12 +18,17 @@ const Nav = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Github
+            GitHub
           </a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="./resume.txt" download>
             Resume
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" onClick={onClick2}>
+            Hobbies
           </a>
         </li>
       </ul>
@@ -31,7 +37,3 @@ const Nav = () => {
 };
 
 export default Nav;
-
-function showAbout() {
-  console.log("Hello");
-}

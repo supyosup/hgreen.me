@@ -1,8 +1,8 @@
 import React from "react";
 
-const Strava = () => {
+const Strava = (props) => {
   return (
-    <div className="center">
+    <div className={props.hidden ? "center" : "aboutMeHidden"}>
       <div className="bottomPadding">
         <iframe
           height="454"

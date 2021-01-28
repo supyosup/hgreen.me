@@ -6,33 +6,39 @@ import logo from "./hg.png";
 import AboutMe from "./AboutMe";
 import Strava from "./Strava";
 import Footer from "./Footer";
+import ControlWrap from "./ControlWrap";
 
-const App = () => {
-  return (
-    <div>
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = false;
+  }
+
+  render() {
+    return (
       <div>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1"
-        ></meta>
+        <div>
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1"
+          ></meta>
+        </div>
+        <ControlWrap></ControlWrap>
+        {/* <Container className="jumbotron2">
+          <div className="imageContainer">
+            <img src={logo} width="300" height="150"></img>
+          </div>
+          <div className="navBarCenter">
+            <Nav></Nav>
+          </div>
+        </Container> */}
+
+        <Container className="center">
+          <Footer className="footer"></Footer>
+        </Container>
       </div>
-      <Container className="jumbotron2">
-        <div className="imageContainer">
-          <img src={logo} width="300" height="150"></img>
-        </div>
-        <div className="navBarCenter">
-          <Nav></Nav>
-        </div>
-      </Container>
-      {/* <Container className="jumbotron">
-        <AboutMe></AboutMe>
-        <Strava></Strava>
-      </Container>
-      <Container className="center">
-        <Footer className="footer"></Footer>
-      </Container> */}
-    </div>
-  );
-};
+    );
+  }
+}
 
 ReactDOM.render(<App />, document.querySelector("#root"));

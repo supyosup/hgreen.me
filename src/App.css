@@ -17,6 +17,19 @@
   justify-content: center;
   align-items: center;
 }
+.aboutMeHidden {
+  display: none;
+}
+
+.jumbohidden {
+  justify-content: center;
+  align-items: center;
+  min-width: 40vw;
+  max-width: 70vw;
+  height: auto;
+  border-radius: 0.5rem;
+  visibility: hidden;
+}
 
 .jumbotron {
   justify-content: center;
@@ -25,6 +38,7 @@
   max-width: 70vw;
   height: auto;
   border-radius: 0.5rem;
+  /* visibility: hidden; */
   /* border: yellow 5px solid; */
 }
 

@@ -1,15 +1,12 @@
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
+import myPic from "./me.PNG";
 
 const AboutMe = (props) => {
   return (
-    <div className="aboutMeMain">
+    <div className={props.hidden ? "aboutMeMain" : "aboutMeHidden"}>
       <div className="myPic">
-        <img
-          className="bottomPadding"
-          src={require("./me.PNG")}
-          alt="image of me"
-        ></img>
+        <img className="bottomPadding" src={myPic} alt="image of me"></img>
       </div>
       <div className="center">
         <h3>Test</h3>
