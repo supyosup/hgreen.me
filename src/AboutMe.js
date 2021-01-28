@@ -8,9 +8,7 @@ const AboutMe = (props) => {
       <div className="myPic">
         <img src={me} className="bottomPadding" alt="image of me"></img>
       </div>
-      <div className="center">
-        <h3>Test</h3>
-      </div>
+      <div className="center"></div>
       <p>I made this site in hopes to learn React and showcase my skills</p>
     </div>
   );

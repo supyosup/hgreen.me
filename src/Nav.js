@@ -5,7 +5,7 @@ const Nav = (onClick, onClick2) => {
     <nav className="navbar navbar-expand-lg navbar-dark">
       <ul className="navbar-nav mr-auto">
         <li className="nav-item">
-          <a className="nav-link" href="#" onClick={onClick}>
+          <a className="nav-link" onClick={onClick}>
             About Me
           </a>
         </li>
@@ -20,7 +20,7 @@ const Nav = (onClick, onClick2) => {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="./Resume.pdf" download="hgresume.pdf">
+          <a className="nav-link" href="../src/Resume.pdf" download>
             Resume
           </a>
         </li>
