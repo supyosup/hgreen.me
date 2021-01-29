@@ -9,7 +9,7 @@ const AboutMe = (props) => {
         <img src={me} className="bottomPadding" alt="image of me"></img>
       </div>
       <div className="center"></div>
-      <p>I made this site in hopes to learn React and showcase my skills</p>
+      <p>I made this site in hopes to learn React and showcase my skills.</p>
     </div>
   );
 };
