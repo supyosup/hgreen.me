@@ -9,12 +9,7 @@ const Footer = (props) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img
-          className="imagePadding"
-          src={linklogo}
-          height="41px"
-          width="41px"
-        ></img>
+        <img className="test" src={linklogo} height="41px" width="41px"></img>
       </a>
     </div>
   );

@@ -5065,11 +5065,6 @@ input[type="button"].btn-block {
   color: #fff;
 }
 
-.navbar-dark .navbar-brand:hover,
-.navbar-dark .navbar-brand:focus {
-  color: red;
-}
-
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.6);
 }

@@ -1,11 +1,12 @@
 import React from "react";
+import Resume from "Resume.pdf";
 
-const Nav = (onClick, onClick2) => {
+const Nav = (aboutMeClick, hobbiesClick) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark">
       <ul className="navbar-nav mr-auto">
         <li className="nav-item">
-          <a className="nav-link" onClick={onClick} href="#">
+          <a className="nav-link" onClick={aboutMeClick} href="#">
             About Me
           </a>
         </li>
@@ -20,12 +21,12 @@ const Nav = (onClick, onClick2) => {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="../src/Resume.pdf" download>
+          <a className="nav-link" href={Resume} download target="_blank">
             Resume
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" onClick={onClick2} href="#">
+          <a className="nav-link" onClick={hobbiesClick} href="#">
             Hobbies
           </a>
         </li>
