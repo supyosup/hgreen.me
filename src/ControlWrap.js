@@ -26,7 +26,7 @@ class ControlWrap extends React.Component {
       <div>
         <Container className="jumbotron2">
           <div className="imageContainer">
-            <img src={logo} width="300" height="150"></img>
+            <img src={logo} width="300" height="150" alt="main logo"></img>
           </div>
           <div className="navBarCenter">
             {Nav(this.handleClick, this.handleHobbies)}

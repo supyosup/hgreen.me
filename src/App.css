@@ -14,9 +14,9 @@
 
 .aboutMeMain,
 .footer,
-.navBarCenter,
 .jumbotron,
-.jumbotron2 {
+.jumbotron2,
+.navBarCenter {
   justify-content: center;
   align-items: center;
 }
@@ -25,9 +25,9 @@
   display: none;
 }
 
+.bottomPadding,
 .jumbotron,
-.jumbotron2,
-.bottomPadding {
+.jumbotron2 {
   height: auto;
 }
 
@@ -38,10 +38,6 @@
 
 .jumbotron2,
 .bottomPadding {
-  width: auto;
-}
-
-.jumbotron2 {
   width: auto;
 }
 
@@ -57,6 +53,8 @@
 p {
   color: #fff;
   font-size: 0.9em;
+  max-width: 35vw;
+  text-align: center;
 }
 
 /* FOR MOBILE */

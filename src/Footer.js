@@ -5,11 +5,16 @@ const Footer = (props) => {
   return (
     <div className={props.className}>
       <a
-        href="https://www.linkedin.com/in/hunter-green-b0120a205/"
+        href="https://www.linkedin.com/in/hgreen18"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img className="test" src={linklogo} height="41px" width="41px"></img>
+        <img
+          src={linklogo}
+          alt="linked-in logo"
+          height="41px"
+          width="41px"
+        ></img>
       </a>
     </div>
   );

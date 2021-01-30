@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "Resume.pdf";
 
 const Nav = (aboutMeClick, hobbiesClick) => {
   return (
@@ -20,7 +21,7 @@ const Nav = (aboutMeClick, hobbiesClick) => {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="Resume.pdf" download target="_blank">
+          <a className="nav-link" href={Resume} download>
             Resume
           </a>
         </li>
