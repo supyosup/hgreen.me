@@ -1,5 +1,4 @@
 import React from "react";
-import Resume from "Resume.pdf";
 
 const Nav = (aboutMeClick, hobbiesClick) => {
   return (
