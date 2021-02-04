@@ -9,10 +9,11 @@ const Strava = (props) => {
         great way to get out and exercise during quarantine.
       </p>
       <div className="center">
-        <img src={bike} height="400" width="400"></img>
+        <img src={bike} height="400" width="400" alt="my bike"></img>
       </div>
       <div className="bottomPadding">
         <iframe
+          title="Strava"
           height="454"
           width="300"
           frameborder="0"

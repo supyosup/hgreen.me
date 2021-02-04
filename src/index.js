@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM, { render } from "react-dom";
+import ReactDOM from "react-dom";
 import Container from "Container";
 import Footer from "Footer";
 import ControlWrap from "ControlWrap";

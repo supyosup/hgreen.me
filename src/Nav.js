@@ -21,11 +21,6 @@ const Nav = (aboutMeClick, hobbiesClick) => {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href={Resume} download>
-            Resume
-          </a>
-        </li>
-        <li className="nav-item">
           <a className="nav-link" onClick={hobbiesClick} href="#">
             Hobbies
           </a>
