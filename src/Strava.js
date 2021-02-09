@@ -11,13 +11,13 @@ const Strava = (props) => {
       <div className="center">
         <img src={bike} height="400" width="400" alt="my bike"></img>
       </div>
-      <div className="bottomPadding">
+      <div className="iFrame">
         <iframe
           title="Strava"
           height="454"
           width="300"
           frameborder="0"
-          allowtransparency="false"
+          allowtransparency="yes"
           scrolling="yes"
           src="https://www.strava.com/athletes/24071212/latest-rides/5481a439b3d2501db301ec4ef29babf6a805da5a"
         ></iframe>
