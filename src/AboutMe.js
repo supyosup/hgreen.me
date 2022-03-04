@@ -10,10 +10,7 @@ const AboutMe = (props) => {
       </div>
       <div className="center"></div>
       <p>
-        I made this site in hopes to learn React and showcase my skills. I enjoy
-        problem solving, programming, and meeting new people. <br></br>This
-        website will serve as an archive for my projects. <br></br>
-        Thank you for stopping by and checking out my page.
+	I am a programmer with an interest in mobile app development. I have experience developing for both iOS and Android. In my free time I enjoy going to the gym, riding my bike, and playing games on the PC. 
       </p>
     </div>
   );
